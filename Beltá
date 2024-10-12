@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beltá - Semijoias Elegantes</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #3a0d55;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #d4af37;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .banner {
+            background-color: #3a0d55;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .banner h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+        }
+
+        .banner p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 40px;
+            background-color: #fff;
+        }
+
+        .product-item {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-item h3 {
+            color: #3a0d55;
+            font-size: 18px;
+        }
+
+        .product-item p {
+            color: #333;
+            font-size: 16px;
+        }
+
+        .product-item button {
+            background-color: #3a0d55;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .about, .contact {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .about h2, .contact h2 {
+            color: #3a0d55;
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+        }
+
+        .about p, .contact p {
+            color: #333;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #3a0d55;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .products {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Beltá - Semijoias Elegantes</h1>
+    </header>
+
+    <!-- Menu de Navegação -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Coleções</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+        <a href="#">Loja</a>
+    </nav>
+
+    <!-- Banner Principal -->
+    <section class="banner">
+        <h2>Descubra a Elegância Intemporal com Beltá</h2>
+        <p>Semijoias sofisticadas para todos os momentos</p>
+    </section>
+
+    <!-- Produtos em Destaque -->
+    <section class="products">
+        <div class="product-item">
+            <img src="https://via.placeholder.com/300" alt="Produto 1">
+            <h3>Colar Dourado Elegante</h3>
+            <p>R$ 129,90</p>
+            <button>Comprar Agora</button>
+        </div>
+        <div class="product-item">
+            <img src="https://via.placeholder.com/300" alt="Produto 2">
+            <h3>Brinco de Pérola Luxuoso</h3>
+            <p>R$ 89,90</p>
+            <button>Comprar Agora</button>
+        </div>
+        <div class="product-item">
+            <img src="https://via.placeholder.com/300" alt="Produto 3">
+            <h3>Pulseira de Cristais Roxos</h3>
+            <p>R$ 149,90</p>
+            <button>Comprar Agora</button>
+        </div>
+    </section>
+
+    <!-- Sobre a Loja -->
+    <section class="about">
+        <h2>Sobre a Beltá</h2>
+        <p>A Beltá nasceu da paixão pela elegância e sofisticação. Cada peça é criada com o máximo de atenção aos detalhes, proporcionando uma experiência única para quem usa nossas semijoias. Explore nossa coleção e descubra como pequenos detalhes podem fazer toda a diferença.</p>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact">
+        <h2>Contato</h2>
+        <p>Tem alguma dúvida? Entre em contato conosco através do e-mail: beltasemijoias@hotmail.com ou pelo WhatsApp (19) 99908-2194. Estamos à disposição para atendê-lo!</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Beltá - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
